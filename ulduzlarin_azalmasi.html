@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ulduzlarin Azalmasi</title>
+</head>
+
+<body>
+    <script>
+        var sai = prompt();
+        var item = '*'
+        var solve = '';
+      for (var i = 1; i <= sai; i++) {
+                for (var k = 1; k <= i; k++) {
+                    document.write(item);
+                }
+                document.write("<br>");
+            }
+            for (var i = sai-1; i >= 1; i--) {
+                for (var k = i; k >= 1; k--) {
+                    document.write(item);
+                }
+                document.write("<br>");
+            }
+    </script>
+</body>
+
+</html>
